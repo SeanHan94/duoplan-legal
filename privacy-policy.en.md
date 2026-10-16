@@ -12,6 +12,7 @@ DuoPlan (the "App") values your privacy and complies with applicable data protec
 - Information you enter: events (title, date and time, note, location, reminder settings), ledger entries (income and expense amount, date, description, payment method, installment months), categories
 - Contact Us inquiries: category, subject, message, reply-to email (your account email), app version, device model, iOS version, app language
 - Information created while using the service: couple space identifier, invite code, creation and modification times of records
+- Notification information: device push token (Firebase Cloud Messaging) used to send push notifications, app language, and whether you receive partner activity notifications
 - Information stored only on your device (never sent to the operator): App Lock passcode (encrypted), display settings (theme, text size, etc.), notification history
 
 The App does not collect location, contacts or photos. It does not collect advertising identifiers or show ads. Face ID and Touch ID data are processed only by iOS on your device; the App receives only whether authentication succeeded.
@@ -21,6 +22,7 @@ The App does not collect location, contacts or photos. It does not collect adver
 - Sign-up, sign-in, identity verification (email verification), password reset
 - Creating a couple space and sharing events and ledger entries between two people
 - Showing birthdays and anniversaries and sending reminders
+- Sending push notifications when your partner adds an event or ledger entry
 - Reviewing and answering Contact Us inquiries
 - Restoring data when you change devices or reinstall the App
 - Showing home screen widgets
@@ -34,6 +36,7 @@ The App does not collect location, contacts or photos. It does not collect adver
 - Records created by your partner belong to your partner and remain available to them.
 - The operator does not keep separate backup copies.
 - Inquiries are deleted one year after they are answered (or immediately if you delete your account earlier).
+- Device push tokens are discarded immediately when you sign out or delete your account, and expired tokens are deleted automatically. Notification history stored on your device is deleted automatically 7 days after it is received.
 
 ## 4. Sharing with Third Parties
 
@@ -43,8 +46,8 @@ The App does not sell or provide your personal information to third parties, exc
 
 The App uses the following cloud services to operate.
 
-- Processor: Google LLC (Firebase Authentication, Cloud Firestore)
-- Purpose: account authentication, data storage and sync
+- Processor: Google LLC (Firebase Authentication, Cloud Firestore, Cloud Functions, Firebase Cloud Messaging), Apple Inc. (Apple Push Notification service)
+- Purpose: account authentication, data storage and sync, sending push notifications
 - Countries: Republic of Korea (Seoul region) and countries where Google operates data centers
 - Data transferred: all information listed in Section 1
 - Timing and method: transmitted over the network while you use the service
