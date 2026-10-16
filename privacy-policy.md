@@ -9,7 +9,7 @@ DuoPlan(이하 "앱")는 이용자의 개인정보를 소중히 여기며, 「�
 - 계정 정보: 이메일 주소, 비밀번호(암호화되어 저장되며 앱 운영자도 볼 수 없습니다), 계정 식별자
 - 프로필 정보: 닉네임, 선택한 색상, 생일(선택, 양력/음력)
 - 커플 정보: 기념일 이름과 날짜(선택)
-- 이용자가 직접 입력한 정보: 일정(제목, 날짜·시간, 메모, 장소, 알림 설정), 가계부(입금·지출 금액, 날짜, 내역, 결제수단, 할부 개월), 카테고리
+- 이용자가 직접 입력한 정보: 일정(제목, 날짜·시간, 메모, 장소, 알림 설정, 첨부한 사진(선택)), 가계부(입금·지출 금액, 날짜, 내역, 결제수단, 할부 개월), 카테고리
 - 1:1 문의: 문의 유형, 제목, 내용, 앱 버전, 기기 모델, iOS 버전, 앱 언어
 - 서비스 이용 과정에서 생성되는 정보: 커플 공간 식별자, 초대 코드, 기록 생성·수정 시각
 - 알림 정보: 푸시 알림을 보내기 위한 기기 알림 토큰(Firebase Cloud Messaging), 앱 언어, 상대 활동 알림 수신 여부
@@ -46,7 +46,7 @@ DuoPlan(이하 "앱")는 이용자의 개인정보를 소중히 여기며, 「�
 
 앱은 서비스 운영을 위해 아래 업체의 클라우드 서비스를 이용합니다.
 
-- 수탁자: Google LLC (Firebase Authentication, Cloud Firestore, Cloud Functions, Firebase Cloud Messaging), Apple Inc. (Apple 푸시 알림 서비스)
+- 수탁자: Google LLC (Firebase Authentication, Cloud Firestore, Cloud Storage for Firebase, Cloud Functions, Firebase Cloud Messaging), Apple Inc. (Apple 푸시 알림 서비스)
 - 위탁 업무: 계정 인증, 데이터 저장 및 동기화, 푸시 알림 발송
 - 이전 국가: 대한민국(서울 리전) 및 Google의 데이터센터가 있는 국가
 - 이전 항목: 1항의 개인정보 전체

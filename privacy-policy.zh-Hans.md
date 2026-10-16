@@ -9,7 +9,7 @@ DuoPlan（以下简称“本应用”）重视用户的个人信息，并遵守�
 - 账号信息：电子邮箱、密码（加密存储，运营者也无法查看）、账号标识符
 - 个人资料：昵称、所选颜色、生日（可选，公历/农历）
 - 情侣信息：纪念日名称和日期（可选）
-- 用户输入的信息：日程（标题、日期和时间、备注、地点、提醒设置）、记账（收入·支出金额、日期、明细、付款方式、分期期数）、分类
+- 用户输入的信息：日程（标题、日期和时间、备注、地点、提醒设置、附加的照片（可选））、记账（收入·支出金额、日期、明细、付款方式、分期期数）、分类
 - 联系我们：问题类型、标题、内容、应用版本、设备型号、iOS 版本、应用语言
 - 使用服务过程中产生的信息：情侣空间标识符、邀请码、记录的创建和修改时间
 - 通知信息：用于发送推送通知的设备通知令牌（Firebase Cloud Messaging）、应用语言、是否接收对方动态通知
@@ -46,7 +46,7 @@ DuoPlan（以下简称“本应用”）重视用户的个人信息，并遵守�
 
 为运营服务，本应用使用以下云服务。
 
-- 受托方：Google LLC（Firebase Authentication、Cloud Firestore、Cloud Functions、Firebase Cloud Messaging）、Apple Inc.（Apple 推送通知服务）
+- 受托方：Google LLC（Firebase Authentication、Cloud Firestore、Cloud Storage for Firebase、Cloud Functions、Firebase Cloud Messaging）、Apple Inc.（Apple 推送通知服务）
 - 委托事项：账号认证、数据存储与同步、发送推送通知
 - 传输国家：大韩民国（首尔区域）及 Google 设有数据中心的国家
 - 传输项目：第1条所列全部个人信息

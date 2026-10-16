@@ -9,7 +9,7 @@ DuoPlan (the "App") values your privacy and complies with applicable data protec
 - Account information: email address, password (stored encrypted; the operator cannot see it), account identifier
 - Profile information: nickname, chosen color, birthday (optional, solar or lunar)
 - Couple information: anniversary name and date (optional)
-- Information you enter: events (title, date and time, note, location, reminder settings), ledger entries (income and expense amount, date, description, payment method, installment months), categories
+- Information you enter: events (title, date and time, note, location, reminder settings, attached photos (optional)), ledger entries (income and expense amount, date, description, payment method, installment months), categories
 - Contact Us inquiries: category, subject, message, app version, device model, iOS version, app language
 - Information created while using the service: couple space identifier, invite code, creation and modification times of records
 - Notification information: device push token (Firebase Cloud Messaging) used to send push notifications, app language, and whether you receive partner activity notifications
@@ -46,7 +46,7 @@ The App does not sell or provide your personal information to third parties, exc
 
 The App uses the following cloud services to operate.
 
-- Processor: Google LLC (Firebase Authentication, Cloud Firestore, Cloud Functions, Firebase Cloud Messaging), Apple Inc. (Apple Push Notification service)
+- Processor: Google LLC (Firebase Authentication, Cloud Firestore, Cloud Storage for Firebase, Cloud Functions, Firebase Cloud Messaging), Apple Inc. (Apple Push Notification service)
 - Purpose: account authentication, data storage and sync, sending push notifications
 - Countries: Republic of Korea (Seoul region) and countries where Google operates data centers
 - Data transferred: all information listed in Section 1
