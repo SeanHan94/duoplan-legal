@@ -1,33 +1,39 @@
 # DuoPlan Privacy Policy
 
-Effective date: October 15, 2026
+Effective date: October 16, 2026
 
 DuoPlan (the "App") values your privacy and complies with applicable data protection laws, including the Personal Information Protection Act of Korea. This policy explains what information the App collects, why, and how it is stored and deleted.
 
 ## 1. Information We Collect
 
 - Account information: email address, password (stored encrypted; the operator cannot see it), account identifier
-- Profile information: nickname, chosen color
-- Information you enter: events (title, date and time, note, location), expenses (amount, date, memo, payment method), categories
+- Profile information: nickname, chosen color, birthday (optional, solar or lunar)
+- Couple information: anniversary name and date (optional)
+- Information you enter: events (title, date and time, note, location, reminder settings), ledger entries (income and expense amount, date, description, payment method, installment months), categories
+- Contact Us inquiries: category, subject, message, reply-to email (your account email), app version, device model, iOS version, app language
 - Information created while using the service: couple space identifier, invite code, creation and modification times of records
+- Information stored only on your device (never sent to the operator): App Lock passcode (encrypted), display settings (theme, text size, etc.), notification history
 
-The App does not collect your device location, contacts, or photos. The App does not collect advertising identifiers or show ads.
+The App does not collect location, contacts or photos. It does not collect advertising identifiers or show ads. Face ID and Touch ID data are processed only by iOS on your device; the App receives only whether authentication succeeded.
 
 ## 2. Purpose of Use
 
-- Sign-up, login, identity verification, and password reset
-- Creating a couple space and sharing schedules and budgets between two people
-- Restoring data after changing devices or reinstalling the App
-- Displaying home screen widgets
+- Sign-up, sign-in, identity verification (email verification), password reset
+- Creating a couple space and sharing events and ledger entries between two people
+- Showing birthdays and anniversaries and sending reminders
+- Reviewing and answering Contact Us inquiries
+- Restoring data when you change devices or reinstall the App
+- Showing home screen widgets
 
 ## 3. Retention and Deletion
 
 - Personal information is kept until you delete your account.
 - You can delete your account at any time in Settings → Account → Delete Account.
-- When you delete your account, your account information, profile, and the events and expenses you added are deleted immediately.
-- When the last member of a couple space leaves, the space and all of its data (including categories) are deleted.
-- Records added by your partner belong to your partner and remain available to them.
-- Copies remaining in backup systems are automatically deleted after a period set by the service provider.
+- **When you delete your account, your sign-in account (email and authentication data) and all data you created (profile, birthday, events, income and expenses, inquiries) are deleted immediately and cannot be recovered.**
+- When the last member leaves a couple space, the space and all data in it (including categories and the anniversary) are deleted immediately.
+- Records created by your partner belong to your partner and remain available to them.
+- The operator does not keep separate backup copies.
+- Inquiries are deleted one year after they are answered (or immediately if you delete your account earlier).
 
 ## 4. Sharing with Third Parties
 
@@ -58,7 +64,8 @@ You may at any time:
 
 - All communication is encrypted (HTTPS/TLS).
 - Passwords are hashed and stored by Firebase Authentication.
-- Database security rules allow only members of the same couple space to access its data.
+- Database security rules allow only members of the same couple space to access event and ledger data, and only the author can read an inquiry.
+- The App Lock passcode is stored only in this device's Keychain as an encrypted value.
 
 ## 8. Children's Privacy
 
