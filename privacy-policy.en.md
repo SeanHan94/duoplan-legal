@@ -10,7 +10,7 @@ DuoPlan (the "App") values your privacy and complies with applicable data protec
 - Profile information: nickname, chosen color, birthday (optional, solar or lunar)
 - Couple information: anniversary name and date (optional)
 - Information you enter: events (title, date and time, note, location, reminder settings), ledger entries (income and expense amount, date, description, payment method, installment months), categories
-- Contact Us inquiries: category, subject, message, reply-to email (your account email), app version, device model, iOS version, app language
+- Contact Us inquiries: category, subject, message, app version, device model, iOS version, app language
 - Information created while using the service: couple space identifier, invite code, creation and modification times of records
 - Notification information: device push token (Firebase Cloud Messaging) used to send push notifications, app language, and whether you receive partner activity notifications
 - Information stored only on your device (never sent to the operator): App Lock passcode (encrypted), display settings (theme, text size, etc.), notification history
