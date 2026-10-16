@@ -1,6 +1,6 @@
 # DuoPlan Privacy Policy
 
-Effective date: October 16, 2026
+Effective date: October 17, 2026
 
 DuoPlan (the "App") values your privacy and complies with applicable data protection laws, including the Personal Information Protection Act of Korea. This policy explains what information the App collects, why, and how it is stored and deleted.
 
@@ -13,9 +13,11 @@ DuoPlan (the "App") values your privacy and complies with applicable data protec
 - Contact Us inquiries: category, subject, message, app version, device model, iOS version, app language
 - Information created while using the service: couple space identifier, invite code, creation and modification times of records
 - Notification information: device push token (Firebase Cloud Messaging) used to send push notifications, app language, and whether you receive partner activity notifications
+- Purchase information: whether and until when you have a Plus subscription or Remove Ads (Apple transaction ID, product, expiry date, refund status). Payment methods and card details are handled by Apple; the App does not receive them.
+- Advertising information (if you have not purchased Remove Ads): to show ads, Google AdMob may collect device identifiers (IDFV, and the advertising identifier IDFA only if you allow tracking), IP address, and ad impression and click data.
 - Information stored only on your device (never sent to the operator): App Lock passcode (encrypted), display settings (theme, text size, etc.), notification history
 
-The App does not collect location, contacts or photos. It does not collect advertising identifiers or show ads. Face ID and Touch ID data are processed only by iOS on your device; the App receives only whether authentication succeeded.
+The App does not collect location or contacts, does not access your whole photo library, and attaches only the photos you choose to events. Tracking for personalized ads happens only if you allow it. Face ID and Touch ID data are processed only by iOS on your device; the App receives only whether authentication succeeded.
 
 ## 2. Purpose of Use
 
@@ -23,6 +25,8 @@ The App does not collect location, contacts or photos. It does not collect adver
 - Creating a couple space and sharing events and ledger entries between two people
 - Showing birthdays and anniversaries and sending reminders
 - Sending push notifications when your partner adds an event or ledger entry
+- Verifying access to paid products (Plus subscription, Remove Ads), applying them to your couple space, and restoring purchases
+- Showing ads (if you have not purchased Remove Ads)
 - Reviewing and answering Contact Us inquiries
 - Restoring data when you change devices or reinstall the App
 - Showing home screen widgets
@@ -37,6 +41,7 @@ The App does not collect location, contacts or photos. It does not collect adver
 - The operator does not keep separate backup copies.
 - Inquiries are deleted one year after they are answered (or immediately if you delete your account earlier).
 - Device push tokens are discarded immediately when you sign out or delete your account, and expired tokens are deleted automatically. Notification history stored on your device is deleted automatically 7 days after it is received.
+- Purchase records are kept for restoring purchases and for refund or dispute checks. When you delete your account, the link to your account (account identifier) is removed immediately. If you sign up again with the same Apple Account and use "Restore Purchases", the purchase is linked to the new account.
 
 ## 4. Sharing with Third Parties
 
@@ -46,14 +51,17 @@ The App does not sell or provide your personal information to third parties, exc
 
 The App uses the following cloud services to operate.
 
-- Processor: Google LLC (Firebase Authentication, Cloud Firestore, Cloud Storage for Firebase, Cloud Functions, Firebase Cloud Messaging), Apple Inc. (Apple Push Notification service)
-- Purpose: account authentication, data storage and sync, sending push notifications
+- Processor: Google LLC (Firebase Authentication, Cloud Firestore, Cloud Storage for Firebase, Cloud Functions, Firebase Cloud Messaging, Google AdMob), Apple Inc. (Apple Push Notification service, App Store in-app purchase)
+- Purpose: account authentication, data storage and sync, sending push notifications, showing ads, verifying purchases
 - Countries: Republic of Korea (Seoul region) and countries where Google operates data centers
 - Data transferred: all information listed in Section 1
 - Timing and method: transmitted over the network while you use the service
 - Retention: same as Section 3
 
 When you search for a place, your search text is sent to Apple (Apple Maps) to provide results. If you choose to open a place in a maps app, the place information is passed to the app you choose (Apple Maps, Naver Map, KakaoMap).
+
+
+Ads are provided by Google AdMob. Before showing ads for the first time, the App asks for iOS "Allow Tracking" permission; if you do not allow it, only non-personalized ads are shown. You can change this anytime in Settings > Privacy & Security > Tracking. How Google uses ad data: https://policies.google.com/technologies/ads
 
 ## 6. Your Rights
 

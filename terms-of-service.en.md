@@ -1,6 +1,6 @@
 # DuoPlan Terms of Service
 
-Effective date: October 15, 2026
+Effective date: October 17, 2026
 
 ## 1. Purpose
 
@@ -53,7 +53,19 @@ You must not:
 
 ## 9. Paid Features
 
-Some features may be offered for a fee in the future. In that case, prices and conditions will be announced in advance and your separate consent will be obtained.
+The app offers the following paid products through Apple App Store in-app purchase.
+
+1. **DuoPlan Plus (auto-renewing subscription)**: ₩2,900 per month or ₩29,000 per year (tax included; the price shown on the in-app purchase screen applies). When one person in a couple space subscribes, both people in that space can use Plus features (more widgets, all themes, extended statistics, event photos, multiple anniversaries, installments, lunar events). If the subscriber leaves the space, Plus ends for that space.
+2. **Remove Ads (one-time purchase)**: ₩4,900. It applies only to the buyer (each partner buys separately), is not a subscription, and is separate from Plus.
+
+- Payment is charged to your Apple Account at confirmation of purchase.
+- The subscription renews automatically at the same price unless cancelled at least 24 hours before the end of the current period; renewal is charged within 24 hours before the period ends.
+- Manage or cancel your subscription in iPhone Settings > Apple Account > Subscriptions. After cancelling, you keep access until the end of the paid period.
+- **Deleting your account does not cancel your Apple subscription.** Please cancel the subscription first to stop payments.
+- Refunds follow Apple's refund policy and can be requested at reportaproblem.apple.com.
+- With the same Apple Account, you can regain access on a new device or after signing up again by using "Restore Purchases" in the app.
+- Changes to prices or products will be announced in advance through the app and the App Store; subscription price increases follow Apple's consent process.
+- If you have not purchased Remove Ads, ads may be shown on some screens.
 
 ## 10. Limitation of Liability
 
