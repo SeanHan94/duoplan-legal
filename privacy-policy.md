@@ -1,6 +1,6 @@
 # DuoPlan 개인정보처리방침
 
-시행일: 2026년 10월 17일
+시행일: 2026년 10월 24일
 
 DuoPlan(이하 "앱")는 이용자의 개인정보를 소중히 여기며, 「개인정보 보호법」 등 관련 법령을 지킵니다. 이 방침은 앱이 어떤 정보를 왜 수집하고, 어떻게 보관·파기하는지 알려드립니다.
 
@@ -15,6 +15,7 @@ DuoPlan(이하 "앱")는 이용자의 개인정보를 소중히 여기며, 「�
 - 알림 정보: 푸시 알림을 보내기 위한 기기 알림 토큰(Firebase Cloud Messaging), 앱 언어, 상대 활동 알림 수신 여부
 - 구매 정보: Plus 구독·광고 제거 구매 여부와 기간(Apple 거래 번호, 상품, 만료일, 환불 여부). 결제 수단·카드 정보는 Apple이 처리하며 앱은 받지 않습니다.
 - 광고 정보(광고 제거를 구매하지 않은 경우): 광고 표시를 위해 Google AdMob이 기기 식별자(IDFV, 사용자가 추적을 허용한 경우에만 광고 식별자 IDFA), IP 주소, 광고 노출·클릭 정보를 수집할 수 있습니다.
+- 앱 이용·오류 정보: 앱을 안정적으로 만들기 위해 Firebase Crashlytics가 앱이 비정상 종료될 때 오류 위치, 기기 모델, iOS·앱 버전, 계정 식별자(무작위 ID)를 수집하고, Google Analytics for Firebase가 앱 실행·주요 기능 사용 여부(일정·가계부 추가 등)와 기기 정보를 수집합니다. 광고 식별자(IDFA)는 이 용도로 수집하지 않습니다. Firebase App Check는 요청이 정식 DuoPlan 앱에서 왔는지 확인하기 위해 Apple의 기기 확인 정보를 사용합니다.
 - 기기에만 저장되는 정보(운영자에게 전송되지 않음): 앱 잠금 비밀번호(암호화된 값), 화면 설정(테마, 글자 크기 등), 받은 알림 내역
 
 앱은 기기의 위치 정보와 연락처를 수집하지 않으며, 사진 보관함 전체에 접근하지 않고 사용자가 직접 고른 사진만 일정에 첨부합니다. 맞춤 광고를 위한 추적은 사용자가 허용한 경우에만 이루어집니다. Face ID·Touch ID 정보는 iOS가 기기 안에서만 처리하며 앱은 인증 성공 여부만 전달받습니다.
@@ -27,6 +28,7 @@ DuoPlan(이하 "앱")는 이용자의 개인정보를 소중히 여기며, 「�
 - 상대가 일정·가계부를 등록했을 때 푸시 알림 발송
 - 유료 상품(Plus 구독·광고 제거) 이용 권한 확인, 커플 공간에 적용, 구매 복원
 - 광고 표시 (광고 제거를 구매하지 않은 경우)
+- 오류 분석과 서비스 개선을 위한 이용 통계, 비정상 요청 차단
 - 1:1 문의 확인 및 답변
 - 기기 변경이나 앱 재설치 시 데이터 복원
 - 홈 화면 위젯 표시
@@ -51,8 +53,8 @@ DuoPlan(이하 "앱")는 이용자의 개인정보를 소중히 여기며, 「�
 
 앱은 서비스 운영을 위해 아래 업체의 클라우드 서비스를 이용합니다.
 
-- 수탁자: Google LLC (Firebase Authentication, Cloud Firestore, Cloud Storage for Firebase, Cloud Functions, Firebase Cloud Messaging, Google AdMob), Apple Inc. (Apple 푸시 알림 서비스, App Store 인앱 결제)
-- 위탁 업무: 계정 인증, 데이터 저장 및 동기화, 푸시 알림 발송, 광고 표시, 결제 확인
+- 수탁자: Google LLC (Firebase Authentication, Cloud Firestore, Cloud Storage for Firebase, Cloud Functions, Firebase Cloud Messaging, Firebase Crashlytics, Google Analytics for Firebase, Firebase App Check, Google AdMob), Apple Inc. (Apple 푸시 알림 서비스, App Store 인앱 결제)
+- 위탁 업무: 계정 인증, 데이터 저장 및 동기화, 푸시 알림 발송, 광고 표시, 결제 확인, 오류 분석·이용 통계, 앱 정품 확인
 - 이전 국가: 대한민국(서울 리전) 및 Google의 데이터센터가 있는 국가
 - 이전 항목: 1항의 개인정보 전체
 - 이전 시기 및 방법: 서비스 이용 시 네트워크를 통해 전송

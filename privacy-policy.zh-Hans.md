@@ -1,6 +1,6 @@
 # DuoPlan 隐私政策
 
-生效日期：2026年10月17日
+生效日期：2026年10月24日
 
 DuoPlan（以下简称“本应用”）重视用户的个人信息，并遵守韩国《个人信息保护法》等相关法律法规。本政策说明本应用收集哪些信息、出于何种目的，以及如何保存和删除。
 
@@ -15,6 +15,7 @@ DuoPlan（以下简称“本应用”）重视用户的个人信息，并遵守�
 - 通知信息：用于发送推送通知的设备通知令牌（Firebase Cloud Messaging）、应用语言、是否接收对方动态通知
 - 购买信息：是否购买 Plus 订阅、去除广告及有效期（Apple 交易编号、商品、到期日、是否退款）。付款方式和银行卡信息由 Apple 处理，本应用不会获取。
 - 广告信息（未购买去除广告时）：为显示广告，Google AdMob 可能收集设备标识符（IDFV，仅在你允许跟踪时收集广告标识符 IDFA）、IP 地址以及广告展示和点击信息。
+- 使用与错误信息：为保持应用稳定，Firebase Crashlytics 会在应用异常退出时收集错误位置、设备型号、iOS 与应用版本以及账号标识符（随机 ID），Google Analytics for Firebase 会收集应用启动、主要功能使用情况（如添加日程、账本）和设备信息。不会为此目的收集广告标识符（IDFA）。Firebase App Check 使用 Apple 的设备验证信息来确认请求来自正版 DuoPlan 应用。
 - 仅保存在设备上的信息（不会发送给运营者）：应用锁密码（加密值）、显示设置（主题、字体大小等）、通知记录
 
 本应用不收集位置信息和通讯录，不访问整个照片图库，只将你自己选择的照片附加到日程。仅在你允许时才会进行个性化广告跟踪。面容 ID 和触控 ID 信息仅由 iOS 在设备内处理，本应用只接收验证是否成功。
@@ -27,6 +28,7 @@ DuoPlan（以下简称“本应用”）重视用户的个人信息，并遵守�
 - 对方添加日程或账目时发送推送通知
 - 确认付费商品（Plus 订阅、去除广告）的使用权、应用到情侣空间以及恢复购买
 - 显示广告（未购买去除广告时）
+- 用于错误分析与服务改进的使用统计，以及阻止异常请求
 - 处理和回复咨询
 - 更换设备或重新安装应用时恢复数据
 - 显示主屏幕小组件
@@ -51,8 +53,8 @@ DuoPlan（以下简称“本应用”）重视用户的个人信息，并遵守�
 
 为运营服务，本应用使用以下云服务。
 
-- 受托方：Google LLC（Firebase Authentication、Cloud Firestore、Cloud Storage for Firebase、Cloud Functions、Firebase Cloud Messaging、Google AdMob）、Apple Inc.（Apple 推送通知服务、App Store 应用内购买）
-- 委托事项：账号认证、数据存储与同步、发送推送通知、显示广告、确认购买
+- 受托方：Google LLC（Firebase Authentication、Cloud Firestore、Cloud Storage for Firebase、Cloud Functions、Firebase Cloud Messaging、Firebase Crashlytics、Google Analytics for Firebase、Firebase App Check、Google AdMob）、Apple Inc.（Apple 推送通知服务、App Store 应用内购买）
+- 委托事项：账号认证、数据存储与同步、发送推送通知、显示广告、确认购买、错误分析与使用统计、正版应用验证
 - 传输国家：大韩民国（首尔区域）及 Google 设有数据中心的国家
 - 传输项目：第1条所列全部个人信息
 - 传输时间与方式：使用服务时通过网络传输
