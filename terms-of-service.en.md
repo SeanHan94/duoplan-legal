@@ -55,8 +55,9 @@ You must not:
 
 The app offers the following paid products through Apple App Store in-app purchase.
 
-1. **DuoPlan Plus (auto-renewing subscription)**: ₩3,900 per month or ₩39,000 per year (tax included; the price shown on the in-app purchase screen applies). When one person in a couple space subscribes, both people in that space can use Plus features (more widgets, all themes, extended statistics, event photos, multiple anniversaries, installments, lunar events). If the subscriber leaves the space, Plus ends for that space.
-2. **Remove Ads (one-time purchase)**: ₩4,900. It applies only to the buyer (each partner buys separately), is not a subscription, and is separate from Plus.
+1. **DuoPlan Plus (auto-renewing subscription)**: ₩4,900 per month or ₩49,000 per year (tax included; the price shown on the in-app purchase screen applies). When one person in a couple space subscribes, both people in that space can use Plus features (more widgets, all themes, extended statistics, event photos, multiple anniversaries, installments, lunar events) with no ads. If the subscriber leaves the space, Plus ends for that space.
+2. **Remove Ads (one-time purchase)**: ₩4,900. It applies only to the buyer (each partner buys separately), is not a subscription, and stays in effect even if a Plus subscription is cancelled.
+3. **Remove Ads buyer perk**: Remove Ads buyers can start the Plus monthly subscription at ₩2,900 for the first month. Under Apple policy, this applies once and only if the same Apple Account has never subscribed to Plus; from the second month it renews automatically at the regular monthly price.
 
 - Payment is charged to your Apple Account at confirmation of purchase.
 - The subscription renews automatically at the same price unless cancelled at least 24 hours before the end of the current period; renewal is charged within 24 hours before the period ends.
