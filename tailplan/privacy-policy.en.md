@@ -74,7 +74,7 @@ The App is not intended for children under 14, and we do not knowingly collect t
 
 ## 10. Contact
 
-- Privacy officer: Sangbin Han
+- Privacy officer: Sangbean Han (한상빈)
 - Email: sean94.han@gmail.com
 
 ## 11. Changes
