@@ -8,7 +8,3 @@
 | 简体中文 | [用户协议](terms-of-service.zh-Hans.html) | [隐私政策](privacy-policy.zh-Hans.html) |
 
 문의: sean94.han@gmail.com
-
-# TailPlan
-
-[TailPlan 약관·개인정보처리방침 / Terms & Privacy](tailplan/)
